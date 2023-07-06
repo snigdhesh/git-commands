@@ -1,3 +1,6 @@
 git:
-  - command: git clean -f -x
-    description: Clean untracked files
+  untracked:
+    - command: git clean -f -x
+      description: Clean untracked files
+    - command: git clean -f -d
+      description: Clean untracked directories
