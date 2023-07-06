@@ -1,0 +1,3 @@
+git:
+  - command: git clean -f -x
+    description: Clean untracked files
